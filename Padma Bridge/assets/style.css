@@ -1,0 +1,62 @@
+/* common css start */
+* {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cont {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+body {
+    background: url(images/bg_main.gif) center;
+}
+
+/* common css end */
+/* Header start */
+.padma-logo{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+.bd-logo{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+.slider{
+    height: 414px;
+}
+.slider img{
+    height: 414px;
+    
+}
+.dropdown{
+    text-decoration: none;
+}
+.nav-link{
+    font-size: 14px;
+}
+/* Header end */
+/* Main part */
+.main-part{
+    width: 800px;
+}
+.main-part h3{
+    font-weight: bold;
+}
+.main-part span{
+    color: red;
+}
